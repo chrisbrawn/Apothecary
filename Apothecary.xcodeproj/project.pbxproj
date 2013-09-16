@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TestTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TestTableAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		513EE12D13C6AF0C007F3885 /* EmailEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 513EE12B13C6AF0C007F3885 /* EmailEditView.m */; };
+		513EE15713C6B3A0007F3885 /* BrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 513EE15613C6B3A0007F3885 /* BrowserView.m */; };
+		513EE15913C6B515007F3885 /* BrowserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513EE15813C6B515007F3885 /* BrowserView.xib */; };
+		832E93C113A29E24006482A8 /* KeyPickerAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 832E93BF13A29E24006482A8 /* KeyPickerAddView.m */; };
+		832E93C213A29E24006482A8 /* KeyPickerAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832E93C013A29E24006482A8 /* KeyPickerAddView.xib */; };
+		834E3BF213B54DAE004C7C6E /* GlobalArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 834E3BF113B54DAE004C7C6E /* GlobalArray.m */; };
+		8352E90013C3B20700777D3C /* NumberOfDaysEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352E8FE13C3B20700777D3C /* NumberOfDaysEditView.m */; };
+		8352E90113C3B20700777D3C /* NumberOfDaysEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8352E8FF13C3B20700777D3C /* NumberOfDaysEditView.xib */; };
+		8352E90D13C3B25C00777D3C /* StartdateEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352E90B13C3B25C00777D3C /* StartdateEditView.m */; };
+		8352E90E13C3B25C00777D3C /* StartdateEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8352E90C13C3B25C00777D3C /* StartdateEditView.xib */; };
+		835E898713C7D2E900094D13 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835E898613C7D2E900094D13 /* MessageUI.framework */; };
+		835EDC9213D2195E00BE16A8 /* prescriptionLower.png in Resources */ = {isa = PBXBuildFile; fileRef = 835EDC9113D2195E00BE16A8 /* prescriptionLower.png */; };
+		835EDC9B13D21ACF00BE16A8 /* prescriptionMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 835EDC9A13D21ACF00BE16A8 /* prescriptionMiddle.png */; };
+		836DD73C13A1A30000814ED7 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 836DD73B13A1A30000814ED7 /* Prescription.m */; };
+		836DD80D13A1AF8600814ED7 /* TableViewHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 836DD80B13A1AF8600814ED7 /* TableViewHelp.m */; };
+		836DD80E13A1AF8600814ED7 /* TableViewHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836DD80C13A1AF8600814ED7 /* TableViewHelp.xib */; };
+		836DD86413A1B56600814ED7 /* CameraAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836DD86213A1B56600814ED7 /* CameraAddView.xib */; };
+		836DD8D413A1C49300814ED7 /* CameraAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836DD8D313A1C49300814ED7 /* CameraAddView.m */; };
+		836DD8FB13A1C72700814ED7 /* dose.png in Resources */ = {isa = PBXBuildFile; fileRef = 836DD8FA13A1C72700814ED7 /* dose.png */; };
+		83707FA113B6B0F9006169F8 /* EmailPickerAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83707F9F13B6B0F9006169F8 /* EmailPickerAddView.m */; };
+		83707FA213B6B0F9006169F8 /* EmailPickerAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83707FA013B6B0F9006169F8 /* EmailPickerAddView.xib */; };
+		83744C7D13915AD700B5F8CA /* AddTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83744C7B13915AD700B5F8CA /* AddTableView.m */; };
+		83744C7E13915AD700B5F8CA /* AddTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83744C7C13915AD700B5F8CA /* AddTableView.xib */; };
+		83744D581391789600B5F8CA /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83744D561391789600B5F8CA /* ItemDetailViewController.m */; };
+		83744D591391789600B5F8CA /* ItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83744D571391789600B5F8CA /* ItemDetailViewController.xib */; };
+		83744DAE139190FF00B5F8CA /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83744DAD139190FF00B5F8CA /* ImageCache.m */; };
+		83744E0A1391A56100B5F8CA /* FileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 83744E091391A56100B5F8CA /* FileHelpers.m */; };
+		83910B4413B3DE7600737E9B /* ScrollPickerAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83910B4213B3DE7600737E9B /* ScrollPickerAddView.m */; };
+		83910B4513B3DE7600737E9B /* ScrollPickerAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83910B4313B3DE7600737E9B /* ScrollPickerAddView.xib */; };
+		839C6E0613C0FE12000AD909 /* DosageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C6E0413C0FE12000AD909 /* DosageEditView.m */; };
+		839EA27313D120E50049BF4A /* EmailAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839EA27213D120E50049BF4A /* EmailAddView.xib */; };
+		839EA27513D120ED0049BF4A /* DosageEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839EA27413D120ED0049BF4A /* DosageEditView.xib */; };
+		839EA27813D121260049BF4A /* EmailEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839EA27713D121260049BF4A /* EmailEditView.xib */; };
+		83AB408F13B63BB8008A31A4 /* EmailAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AB408D13B63BB8008A31A4 /* EmailAddView.m */; };
+		83D6595313AA91ED00692001 /* TableDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D6595113AA91ED00692001 /* TableDetailViewController.m */; };
+		83D6595413AA91ED00692001 /* TableDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D6595213AA91ED00692001 /* TableDetailViewController.xib */; };
+		83EC279C13D0FFE500B89E1F /* wip_template.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC279B13D0FFE500B89E1F /* wip_template.png */; };
+		83EC27A413D1044500B89E1F /* pillbottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC27A313D1044500B89E1F /* pillbottle.png */; };
+		83EC27FD13D10F7B00B89E1F /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC27FC13D10F7B00B89E1F /* email.png */; };
+		83EF862D13B65B4F0089700F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EF862B13B65B4F0089700F /* Default.png */; };
+		83EF862E13B65B4F0089700F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EF862C13B65B4F0089700F /* Default@2x.png */; };
+		83EF863413B65C920089700F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EF863313B65C920089700F /* Icon.png */; };
+		83EF863613B65C980089700F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EF863513B65C980089700F /* Icon@2x.png */; };
+		83F0204713CFB8FC009B191F /* MortarPestleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F0204613CFB8FC009B191F /* MortarPestleBG.png */; };
+		83F0207513CFC2DB009B191F /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F0207413CFC2DB009B191F /* test.png */; };
+		83F0209013CFC929009B191F /* editScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F0208F13CFC929009B191F /* editScreen.png */; };
+		83F22EB013D1ECE3001C33BE /* prescriptionName.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F22EAF13D1ECE3001C33BE /* prescriptionName.png */; };
+		83F22EB313D1ED66001C33BE /* prescriptionNotif.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F22EB213D1ED66001C33BE /* prescriptionNotif.png */; };
+		83F22EB713D1EDE7001C33BE /* emailAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F22EB613D1EDE7001C33BE /* emailAdd.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TestTableAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TestTableAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Apothecary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apothecary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Apothecary_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apothecary_Prefix.pch; sourceTree = "<group>"; };
+		513EE12A13C6AF0C007F3885 /* EmailEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailEditView.h; sourceTree = "<group>"; };
+		513EE12B13C6AF0C007F3885 /* EmailEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailEditView.m; sourceTree = "<group>"; };
+		513EE15513C6B3A0007F3885 /* BrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserView.h; sourceTree = "<group>"; };
+		513EE15613C6B3A0007F3885 /* BrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserView.m; sourceTree = "<group>"; };
+		513EE15813C6B515007F3885 /* BrowserView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowserView.xib; sourceTree = "<group>"; };
+		832E93BE13A29E24006482A8 /* KeyPickerAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyPickerAddView.h; path = ../KeyPickerAddView.h; sourceTree = "<group>"; };
+		832E93BF13A29E24006482A8 /* KeyPickerAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyPickerAddView.m; path = ../KeyPickerAddView.m; sourceTree = "<group>"; };
+		832E93C013A29E24006482A8 /* KeyPickerAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = KeyPickerAddView.xib; path = ../KeyPickerAddView.xib; sourceTree = "<group>"; };
+		834E3BF013B54DAE004C7C6E /* GlobalArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalArray.h; sourceTree = "<group>"; };
+		834E3BF113B54DAE004C7C6E /* GlobalArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalArray.m; sourceTree = "<group>"; };
+		8352E8FD13C3B20700777D3C /* NumberOfDaysEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfDaysEditView.h; sourceTree = "<group>"; };
+		8352E8FE13C3B20700777D3C /* NumberOfDaysEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfDaysEditView.m; sourceTree = "<group>"; };
+		8352E8FF13C3B20700777D3C /* NumberOfDaysEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberOfDaysEditView.xib; sourceTree = "<group>"; };
+		8352E90A13C3B25C00777D3C /* StartdateEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartdateEditView.h; sourceTree = "<group>"; };
+		8352E90B13C3B25C00777D3C /* StartdateEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartdateEditView.m; sourceTree = "<group>"; };
+		8352E90C13C3B25C00777D3C /* StartdateEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartdateEditView.xib; sourceTree = "<group>"; };
+		835E898613C7D2E900094D13 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		835EDC9113D2195E00BE16A8 /* prescriptionLower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prescriptionLower.png; sourceTree = "<group>"; };
+		835EDC9A13D21ACF00BE16A8 /* prescriptionMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prescriptionMiddle.png; sourceTree = "<group>"; };
+		836DD73A13A1A30000814ED7 /* Prescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		836DD73B13A1A30000814ED7 /* Prescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
+		836DD80A13A1AF8600814ED7 /* TableViewHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewHelp.h; sourceTree = "<group>"; };
+		836DD80B13A1AF8600814ED7 /* TableViewHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewHelp.m; sourceTree = "<group>"; };
+		836DD80C13A1AF8600814ED7 /* TableViewHelp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewHelp.xib; sourceTree = "<group>"; };
+		836DD86013A1B56600814ED7 /* CameraAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraAddView.h; path = ../CameraAddView.h; sourceTree = "<group>"; };
+		836DD86213A1B56600814ED7 /* CameraAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CameraAddView.xib; path = ../CameraAddView.xib; sourceTree = "<group>"; };
+		836DD8D313A1C49300814ED7 /* CameraAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraAddView.m; path = ../CameraAddView.m; sourceTree = "<group>"; };
+		836DD8FA13A1C72700814ED7 /* dose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dose.png; sourceTree = "<group>"; };
+		83707F9E13B6B0F9006169F8 /* EmailPickerAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailPickerAddView.h; sourceTree = "<group>"; };
+		83707F9F13B6B0F9006169F8 /* EmailPickerAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailPickerAddView.m; sourceTree = "<group>"; };
+		83707FA013B6B0F9006169F8 /* EmailPickerAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailPickerAddView.xib; sourceTree = "<group>"; };
+		83744C7A13915AD700B5F8CA /* AddTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddTableView.h; path = ../AddTableView.h; sourceTree = "<group>"; };
+		83744C7B13915AD700B5F8CA /* AddTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddTableView.m; path = ../AddTableView.m; sourceTree = "<group>"; };
+		83744C7C13915AD700B5F8CA /* AddTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddTableView.xib; path = ../AddTableView.xib; sourceTree = "<group>"; };
+		83744D551391789600B5F8CA /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDetailViewController.h; path = ../ItemDetailViewController.h; sourceTree = "<group>"; };
+		83744D561391789600B5F8CA /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDetailViewController.m; path = ../ItemDetailViewController.m; sourceTree = "<group>"; };
+		83744D571391789600B5F8CA /* ItemDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ItemDetailViewController.xib; path = ../ItemDetailViewController.xib; sourceTree = "<group>"; };
+		83744DAC139190FF00B5F8CA /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		83744DAD139190FF00B5F8CA /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		83744E081391A56100B5F8CA /* FileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelpers.h; sourceTree = "<group>"; };
+		83744E091391A56100B5F8CA /* FileHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelpers.m; sourceTree = "<group>"; };
+		83910B4113B3DE7600737E9B /* ScrollPickerAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPickerAddView.h; sourceTree = "<group>"; };
+		83910B4213B3DE7600737E9B /* ScrollPickerAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollPickerAddView.m; sourceTree = "<group>"; };
+		83910B4313B3DE7600737E9B /* ScrollPickerAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollPickerAddView.xib; sourceTree = "<group>"; };
+		839C6E0313C0FE12000AD909 /* DosageEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DosageEditView.h; sourceTree = "<group>"; };
+		839C6E0413C0FE12000AD909 /* DosageEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DosageEditView.m; sourceTree = "<group>"; };
+		839EA27213D120E50049BF4A /* EmailAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailAddView.xib; sourceTree = "<group>"; };
+		839EA27413D120ED0049BF4A /* DosageEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DosageEditView.xib; sourceTree = "<group>"; };
+		839EA27713D121260049BF4A /* EmailEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailEditView.xib; sourceTree = "<group>"; };
+		83AB408C13B63BB8008A31A4 /* EmailAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailAddView.h; sourceTree = "<group>"; };
+		83AB408D13B63BB8008A31A4 /* EmailAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailAddView.m; sourceTree = "<group>"; };
+		83D6595013AA91ED00692001 /* TableDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDetailViewController.h; sourceTree = "<group>"; };
+		83D6595113AA91ED00692001 /* TableDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDetailViewController.m; sourceTree = "<group>"; };
+		83D6595213AA91ED00692001 /* TableDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableDetailViewController.xib; sourceTree = "<group>"; };
+		83EC279B13D0FFE500B89E1F /* wip_template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wip_template.png; sourceTree = "<group>"; };
+		83EC27A313D1044500B89E1F /* pillbottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbottle.png; sourceTree = "<group>"; };
+		83EC27FC13D10F7B00B89E1F /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = Classes/email.png; sourceTree = "<group>"; };
+		83EF862B13B65B4F0089700F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83EF862C13B65B4F0089700F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83EF863313B65C920089700F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		83EF863513B65C980089700F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		83F0204613CFB8FC009B191F /* MortarPestleBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MortarPestleBG.png; path = Classes/MortarPestleBG.png; sourceTree = "<group>"; };
+		83F0207413CFC2DB009B191F /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		83F0208F13CFC929009B191F /* editScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editScreen.png; sourceTree = "<group>"; };
+		83F22EAF13D1ECE3001C33BE /* prescriptionName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prescriptionName.png; sourceTree = "<group>"; };
+		83F22EB213D1ED66001C33BE /* prescriptionNotif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prescriptionNotif.png; sourceTree = "<group>"; };
+		83F22EB613D1EDE7001C33BE /* emailAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailAdd.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Apothecary-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Apothecary-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				835E898713C7D2E900094D13 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83AB408C13B63BB8008A31A4 /* EmailAddView.h */,
+				83F22EB213D1ED66001C33BE /* prescriptionNotif.png */,
+				83AB408D13B63BB8008A31A4 /* EmailAddView.m */,
+				513EE12A13C6AF0C007F3885 /* EmailEditView.h */,
+				839EA27213D120E50049BF4A /* EmailAddView.xib */,
+				513EE12B13C6AF0C007F3885 /* EmailEditView.m */,
+				839EA27713D121260049BF4A /* EmailEditView.xib */,
+				835EDC9113D2195E00BE16A8 /* prescriptionLower.png */,
+				83F22EB613D1EDE7001C33BE /* emailAdd.png */,
+				834E3BF013B54DAE004C7C6E /* GlobalArray.h */,
+				834E3BF113B54DAE004C7C6E /* GlobalArray.m */,
+				836DD73A13A1A30000814ED7 /* Prescription.h */,
+				836DD73B13A1A30000814ED7 /* Prescription.m */,
+				83D6595013AA91ED00692001 /* TableDetailViewController.h */,
+				83D6595113AA91ED00692001 /* TableDetailViewController.m */,
+				83D6595213AA91ED00692001 /* TableDetailViewController.xib */,
+				83707F9E13B6B0F9006169F8 /* EmailPickerAddView.h */,
+				835EDC9A13D21ACF00BE16A8 /* prescriptionMiddle.png */,
+				83F22EAF13D1ECE3001C33BE /* prescriptionName.png */,
+				83707F9F13B6B0F9006169F8 /* EmailPickerAddView.m */,
+				83707FA013B6B0F9006169F8 /* EmailPickerAddView.xib */,
+				832E93BE13A29E24006482A8 /* KeyPickerAddView.h */,
+				832E93BF13A29E24006482A8 /* KeyPickerAddView.m */,
+				832E93C013A29E24006482A8 /* KeyPickerAddView.xib */,
+				839C6E0313C0FE12000AD909 /* DosageEditView.h */,
+				839C6E0413C0FE12000AD909 /* DosageEditView.m */,
+				839EA27413D120ED0049BF4A /* DosageEditView.xib */,
+				8352E8FD13C3B20700777D3C /* NumberOfDaysEditView.h */,
+				8352E8FE13C3B20700777D3C /* NumberOfDaysEditView.m */,
+				8352E8FF13C3B20700777D3C /* NumberOfDaysEditView.xib */,
+				8352E90A13C3B25C00777D3C /* StartdateEditView.h */,
+				8352E90B13C3B25C00777D3C /* StartdateEditView.m */,
+				8352E90C13C3B25C00777D3C /* StartdateEditView.xib */,
+				83744C7A13915AD700B5F8CA /* AddTableView.h */,
+				83744C7B13915AD700B5F8CA /* AddTableView.m */,
+				83744C7C13915AD700B5F8CA /* AddTableView.xib */,
+				83910B4113B3DE7600737E9B /* ScrollPickerAddView.h */,
+				83910B4213B3DE7600737E9B /* ScrollPickerAddView.m */,
+				83910B4313B3DE7600737E9B /* ScrollPickerAddView.xib */,
+				83EC279B13D0FFE500B89E1F /* wip_template.png */,
+				83744D551391789600B5F8CA /* ItemDetailViewController.h */,
+				83744D561391789600B5F8CA /* ItemDetailViewController.m */,
+				83744D571391789600B5F8CA /* ItemDetailViewController.xib */,
+				836DD86013A1B56600814ED7 /* CameraAddView.h */,
+				836DD8D313A1C49300814ED7 /* CameraAddView.m */,
+				836DD86213A1B56600814ED7 /* CameraAddView.xib */,
+				83744E081391A56100B5F8CA /* FileHelpers.h */,
+				83744E091391A56100B5F8CA /* FileHelpers.m */,
+				1D3623240D0F684500981E51 /* TestTableAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TestTableAppDelegate.m */,
+				513EE15513C6B3A0007F3885 /* BrowserView.h */,
+				513EE15613C6B3A0007F3885 /* BrowserView.m */,
+				513EE15813C6B515007F3885 /* BrowserView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Apothecary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				836DD84513A1B3D000814ED7 /* help */,
+				83744DAC139190FF00B5F8CA /* ImageCache.h */,
+				83744DAD139190FF00B5F8CA /* ImageCache.m */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				83EC27FC13D10F7B00B89E1F /* email.png */,
+				83F0208F13CFC929009B191F /* editScreen.png */,
+				83F0207413CFC2DB009B191F /* test.png */,
+				83F0204613CFB8FC009B191F /* MortarPestleBG.png */,
+				83EF863513B65C980089700F /* Icon@2x.png */,
+				83EF863313B65C920089700F /* Icon.png */,
+				83EF862B13B65B4F0089700F /* Default.png */,
+				83EF862C13B65B4F0089700F /* Default@2x.png */,
+				32CA4F630368D1EE00C91783 /* Apothecary_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83EC27A313D1044500B89E1F /* pillbottle.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Apothecary-Info.plist */,
+				836DD8FA13A1C72700814ED7 /* dose.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				835E898613C7D2E900094D13 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		836DD84513A1B3D000814ED7 /* help */ = {
+			isa = PBXGroup;
+			children = (
+				836DD80C13A1AF8600814ED7 /* TableViewHelp.xib */,
+				836DD80A13A1AF8600814ED7 /* TableViewHelp.h */,
+				836DD80B13A1AF8600814ED7 /* TableViewHelp.m */,
+			);
+			name = help;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Apothecary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Apothecary" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apothecary;
+			productName = TestTable;
+			productReference = 1D6058910D05DD3D006BFB54 /* Apothecary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Apothecary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Apothecary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				83744C7E13915AD700B5F8CA /* AddTableView.xib in Resources */,
+				83744D591391789600B5F8CA /* ItemDetailViewController.xib in Resources */,
+				836DD80E13A1AF8600814ED7 /* TableViewHelp.xib in Resources */,
+				836DD86413A1B56600814ED7 /* CameraAddView.xib in Resources */,
+				836DD8FB13A1C72700814ED7 /* dose.png in Resources */,
+				832E93C213A29E24006482A8 /* KeyPickerAddView.xib in Resources */,
+				83D6595413AA91ED00692001 /* TableDetailViewController.xib in Resources */,
+				83910B4513B3DE7600737E9B /* ScrollPickerAddView.xib in Resources */,
+				83EF862D13B65B4F0089700F /* Default.png in Resources */,
+				83EF862E13B65B4F0089700F /* Default@2x.png in Resources */,
+				83EF863413B65C920089700F /* Icon.png in Resources */,
+				83EF863613B65C980089700F /* Icon@2x.png in Resources */,
+				83707FA213B6B0F9006169F8 /* EmailPickerAddView.xib in Resources */,
+				8352E90113C3B20700777D3C /* NumberOfDaysEditView.xib in Resources */,
+				8352E90E13C3B25C00777D3C /* StartdateEditView.xib in Resources */,
+				513EE15913C6B515007F3885 /* BrowserView.xib in Resources */,
+				83F0204713CFB8FC009B191F /* MortarPestleBG.png in Resources */,
+				83F0207513CFC2DB009B191F /* test.png in Resources */,
+				83F0209013CFC929009B191F /* editScreen.png in Resources */,
+				83EC279C13D0FFE500B89E1F /* wip_template.png in Resources */,
+				83EC27A413D1044500B89E1F /* pillbottle.png in Resources */,
+				83EC27FD13D10F7B00B89E1F /* email.png in Resources */,
+				839EA27313D120E50049BF4A /* EmailAddView.xib in Resources */,
+				839EA27513D120ED0049BF4A /* DosageEditView.xib in Resources */,
+				839EA27813D121260049BF4A /* EmailEditView.xib in Resources */,
+				83F22EB013D1ECE3001C33BE /* prescriptionName.png in Resources */,
+				83F22EB313D1ED66001C33BE /* prescriptionNotif.png in Resources */,
+				83F22EB713D1EDE7001C33BE /* emailAdd.png in Resources */,
+				835EDC9213D2195E00BE16A8 /* prescriptionLower.png in Resources */,
+				835EDC9B13D21ACF00BE16A8 /* prescriptionMiddle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TestTableAppDelegate.m in Sources */,
+				83744C7D13915AD700B5F8CA /* AddTableView.m in Sources */,
+				83744D581391789600B5F8CA /* ItemDetailViewController.m in Sources */,
+				83744DAE139190FF00B5F8CA /* ImageCache.m in Sources */,
+				83744E0A1391A56100B5F8CA /* FileHelpers.m in Sources */,
+				836DD73C13A1A30000814ED7 /* Prescription.m in Sources */,
+				836DD80D13A1AF8600814ED7 /* TableViewHelp.m in Sources */,
+				836DD8D413A1C49300814ED7 /* CameraAddView.m in Sources */,
+				832E93C113A29E24006482A8 /* KeyPickerAddView.m in Sources */,
+				83D6595313AA91ED00692001 /* TableDetailViewController.m in Sources */,
+				83910B4413B3DE7600737E9B /* ScrollPickerAddView.m in Sources */,
+				834E3BF213B54DAE004C7C6E /* GlobalArray.m in Sources */,
+				83AB408F13B63BB8008A31A4 /* EmailAddView.m in Sources */,
+				83707FA113B6B0F9006169F8 /* EmailPickerAddView.m in Sources */,
+				839C6E0613C0FE12000AD909 /* DosageEditView.m in Sources */,
+				8352E90013C3B20700777D3C /* NumberOfDaysEditView.m in Sources */,
+				8352E90D13C3B25C00777D3C /* StartdateEditView.m in Sources */,
+				513EE12D13C6AF0C007F3885 /* EmailEditView.m in Sources */,
+				513EE15713C6B3A0007F3885 /* BrowserView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Apothecary_Prefix.pch;
+				INFOPLIST_FILE = "Apothecary-Info.plist";
+				PRODUCT_NAME = Apothecary;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Apothecary_Prefix.pch;
+				INFOPLIST_FILE = "Apothecary-Info.plist";
+				PRODUCT_NAME = Apothecary;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Apothecary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Apothecary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

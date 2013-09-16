@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'TestTable' target in the 'TestTable' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#import "FileHelpers.h"
+#endif
